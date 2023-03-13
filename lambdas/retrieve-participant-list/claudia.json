@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "lambda-retrieve-participant-list-executor",
+    "name": "lambda-retrieve-participant-list",
+    "region": "us-east-1"
+  }
+}

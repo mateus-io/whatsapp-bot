@@ -1,0 +1,20 @@
+{
+  "name": "lambda-retrieve-participant-list",
+  "version": "1.0.0",
+  "description": "Retrieve Participant List",
+  "main": "index.js",
+  "scripts": {
+    "create": "claudia create --region us-east-1 --handler index.handler --profile mateusio",
+    "deploy": "claudia update --region us-east-1 --handler index.handler --profile mateusio",
+    "start": "ntl"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1058.0"
+  },
+  "devDependencies": {
+    "claudia": "^5.14.0",
+    "ntl": "^5.1.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "lambda-put-participant-list-executor",
+    "name": "lambda-put-participant-list",
+    "region": "us-east-1"
+  }
+}
